@@ -13,7 +13,9 @@ function frameIt(){
 
 function pressIt(){
  $(document).on("keydown",function(e){
-   if(e.which == )
+   if(e.which == 71){
+     alert("Warning!")
+   }
  }) 
 }
 
