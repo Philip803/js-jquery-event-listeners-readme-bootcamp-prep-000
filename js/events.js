@@ -12,7 +12,7 @@ function frameIt(){
 }
 
 function pressIt(){
- $(".typing").on("keydown",function(e){
+ $("form").on("keydown",function(e){
    if(e.which == 71){
      alert("Warning!")
    }
